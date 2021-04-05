@@ -5,18 +5,11 @@
     background-color: #D0D2F2;
 }
 
-.image1{
-    width: 800px;
-    height: 450px;
-    display:block;
-    margin:auto;
-}
-
 li, a{
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #D0D2F2;
+    color: black;
     text-decoration: none;
 }
 
@@ -25,28 +18,28 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
-    background-color: black;
+    background-color: #d0d2f2;
 }
 
-.nav_links{
+.links{
     list-style: none;
-    background-color: black;
+    background-color:#D0D2F2;
 }
 
-.nav_links li{
+.links li{
     display: inline-block;
     padding: 0px 20px;
-    background-color: black;
+    background-color:#D0D2F2;
 }
 
-.nav_links li a{
+.links li a{
     transition: all 0.3s ease 0s;
-    background-color: black;
+    background-color:#D0D2F2;
 }
 
-.nav_links li a:hover{
-    color: #F2E205;
-    background-color: black;
+.links li a:hover{
+    color: #A6A297;
+    background-color:#D0D2F2;
 }
 
 .problema{  
