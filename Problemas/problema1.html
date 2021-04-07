@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/problemas.css">
+    <script src="JS/p1.js"></script>
     <title>Problema 1</title>
 </head>
 <body>
@@ -30,8 +31,42 @@
     <br>
     <br>
     <div class="problema">
-        1.- Se le ha ordenado diseñar una aplicación web que pueda calcular el interés del pago mensual
-        de una inversion al 2 %, para lo cual deberá diseñar un formulario que haga dicho cálculo.
+        Calcular el interés del pago mensual de una inversion al 2 %
     </div>
+    <section>
+        <div>
+            <form method="POST" name="formulario">
+    
+                <table align="center">
+        
+                    <tr>
+                        <td class="td_sup">Cantidad a invertir : $</td>
+                        <td class="td_inf"><input type="text" name= "cantidad" onkeypress="return validarn(event)"></td>
+        
+                        <tr>
+                            <td class="td_sup">Digite el número de meses (1-12)</td>
+                            <td class="td_inf"><input type="text" name= "meses" size="2" onkeypress="return validarm(event)"></td>
+                        </tr>
+                    </tr>
+        
+                    <tr>
+                        <td></td>
+                        <td class="td_inf"><input type="button" value="Interes" name="enviar" onclick="interes()"></td>
+                    </tr>
+                    <tr>
+                        <td class="td_sup">Saldo total con intereses:</td>
+                        <td><input type="text" name="sueldoti" id="cantidadi" readonly="readonly" class="input_text"></td>
+    
+                    </tr>
+        
+                    <tr>
+                        <td></td>
+                        <td><input type="button" value="Borrar" name="reset" onclick="borrar()"></td>
+                    </tr>
+                </table>
+            </form>
+        
+        </div>
+    </section>
 </body>
 </html>

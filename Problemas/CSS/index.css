@@ -49,17 +49,3 @@ header{
     background-color: black;
 }
 
-.problema{  
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center; 
-    background: #F2E205; 
-    margin: 0 0 25px; 
-    overflow: hidden; 
-    padding: 20px; 
-    border-radius: 35px 0px 35px 0px; 
-    -moz-border-radius: 35px 0px 35px 0px; 
-    -webkit-border-radius: 35px 0px 35px 0px; 
-    border: 2px solid #F2EDA2;
-}
