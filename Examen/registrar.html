@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/iniciarsesion.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,700&family=Staatliches&display=swap" rel="stylesheet">
+    <title>Cuenta</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo"><img class="imglogo" src="IMG/BenandJerrys.png"></a>
+        <ul class="nav_links">
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="iniciarsesion.html">Cuenta</a></li>
+        </ul>
+    </nav>
+
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <h2 class="active"> Registrarse </h2>
+          <a href="iniciarsesion.html"><h2 class="inactive underlineHover"> Iniciar Sesión </h2></a>
+
+          <div class="fadeIn first">
+            <img src="IMG/BenandJerrys.png" id="icon" alt="User Icon" class="icon">
+          </div>
+
+          <form>
+            <input type="text" id="usuario" class="fadeIn second" name="login" placeholder="Usuario">
+            <input type="text" id="nombre" class="fadeIn second" name="login" placeholder="Nombre">
+            <input type="text" id="appat" class="fadeIn second" name="login" placeholder="Apellido Paterno">
+            <input type="text" id="apmat" class="fadeIn second" name="login" placeholder="Apellido Materno">
+            <input type="number" id="edad" class="fadeIn second" name="login" placeholder="Edad">
+            <h3>Fecha de Nacimiento</h3>
+            <input type="date" id="nacimiento class="fadeIn second" name="login" placeholder="Fecha de nacimiento">
+            <h3>Contacto</h3>
+            <input type="text" id="telefono" class="fadeIn second" name="login" placeholder="Teléfono Particular">
+            <input type="text" id="celular" class="fadeIn second" name="login" placeholder="Celular">
+            <input type="text" id="contraseña" class="fadeIn third" name="login" placeholder="Contraseña">
+            <input type="submit" class="fadeIn fourth" value="Registrarse">
+          </form>
+        </div>
+    </div>
+</body>
+</html>
